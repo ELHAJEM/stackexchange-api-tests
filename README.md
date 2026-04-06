@@ -1,7 +1,7 @@
 # stackexchange-api-tests
 Test technique parti 1
 
-# StackExchange API – Cas de test fonctionnels (ISTQB)
+# StackExchange API – Cas de test fonctionnels 
 
 ## Objectif
 Ce document contient tous les cas de test fonctionnels pour l’API :  
