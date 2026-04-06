@@ -261,9 +261,13 @@ Feature: Vérification synchronisation questions StackOverflow
 package pages;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
+
 import org.openqa.selenium.support.FindBy;
+
 import org.openqa.selenium.support.PageFactory;
+
 
 public class StackOverflowPage {
     private WebDriver driver;
@@ -286,9 +290,13 @@ public class StackOverflowPage {
 package steps;
 
 import io.cucumber.java.en.Given;
+
 import io.restassured.RestAssured;
+
 import io.restassured.response.Response;
+
 import io.restassured.path.json.JsonPath;
+
 
 public class ApiSteps {
     private static String apiFirstTitle;
@@ -311,11 +319,17 @@ public class ApiSteps {
 package steps;
 
 import io.cucumber.java.en.When;
+
 import io.cucumber.java.en.And;
+
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import pages.StackOverflowPage;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class WebSteps {
     private WebDriver driver;
@@ -347,7 +361,9 @@ public class WebSteps {
 package hooks;
 
 import io.cucumber.java.After;
+
 import org.openqa.selenium.WebDriver;
+
 
 public class Hooks {
     private static WebDriver driver;
@@ -371,10 +387,16 @@ public class Hooks {
 package steps;
 
 import io.cucumber.java.en.Then;
+
+
 import io.cucumber.java.Before;
+
 import steps.ApiSteps;
+
 import steps.WebSteps;
+
 import hooks.Hooks;
+
 
 public class VerificationSteps {
     private ApiSteps apiSteps;
