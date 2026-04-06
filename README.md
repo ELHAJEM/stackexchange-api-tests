@@ -1,15 +1,14 @@
 # stackexchange  test technique
 
 
-Test technique parti 1
 
 # StackExchange API – Cas de test fonctionnels 
 
 ## Objectif
-Ce document contient tous les cas de test fonctionnels pour l’API :  
-https://api.stackexchange.com/2.3/questions
 
-Les tests suivent les bonnes pratiques ISTQB : partition d’équivalence, valeurs limites, tests d’erreur, robustesse, etc.
+Test technique 
+
+## Test technique parti 1 quelques idées de tests à effectuer sur cette API
 
 ---
 
@@ -158,7 +157,7 @@ Les tests suivent les bonnes pratiques ISTQB : partition d’équivalence, valeu
 
 
 
-Partie 2 
+## Test technique partie 2 ( solution d'automatisation 
 
 ## Créez un projet Maven avec cette arborescence : ( en dessous vous pouvez aussi trouvez tous les détais qui correspond à cette arborscence )
 
