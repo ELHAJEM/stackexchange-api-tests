@@ -13,7 +13,7 @@ Les tests suivent les bonnes pratiques ISTQB : partition d’équivalence, valeu
 
 ## TC01 – Appel nominal sans paramètres
 **Objectif :** Vérifier la réponse par défaut  
-**Préconditions :** API accessible  
+**Préconditions :** API accessible  meme préconditions pour tous les cas de tests ( TC02 - TC15)
 **Données :** GET /questions  
 **Étapes :**  
 1. Envoyer la requête GET  
