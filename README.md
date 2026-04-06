@@ -166,22 +166,39 @@ Test technique
 
 
 
+
 src/
+
 ├── main/
+
 │   └── java/
+
 │       └── pages/
+
 │           └── StackOverflowPage.java  // Page Object
+
 └── test/
+
     ├── java/
+    
     │   ├── steps/
+    
     │   │   ├── ApiSteps.java
+    
     │   │   └── WebSteps.java
+    
     │   ├── hooks/
+    
     │   │   └── Hooks.java
+    
     │   └── runner/
+    
     │       └── TestRunner.java
+    
     └── resources/
+    
         └── features/
+        
             └── StackOverflowVerification.feature
 pom.xml
 
