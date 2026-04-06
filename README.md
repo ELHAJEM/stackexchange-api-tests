@@ -242,12 +242,18 @@ pom.xml
 ##   Fichier Feature (Gherkin)   src/test/resources/features/StackOverflowVerification.feature :
 
 Feature: Vérification synchronisation questions StackOverflow
+
   En tant qu'utilisateur, je veux vérifier que la première question API = première question web
+  
 
   Scenario: Première question API correspond à la première sur la page Newest
+  
     Given je récupère la première question de l'API StackExchange
+    
     When je navigue sur la page StackOverflow questions Newest
+    
     And je récupère le titre de la première question affichée
+    
     Then les deux titres sont identiques
 
 ##  Page Object Model  src/test/java/pages/StackOverflowPage.java :
